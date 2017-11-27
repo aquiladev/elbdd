@@ -1,1 +1,1 @@
-# ict-n-logistic
+# Exact Live 2017 Blockchain Deep Dive presentation
