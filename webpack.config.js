@@ -3,13 +3,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
-    index: './src/index.js',
-    // 'reveal': './node_modules/reveal.js/js/reveal.js',
-    // 'lib/head': './node_modules/reveal.js/lib/js/head.min.js',
-    // 'plugin/markdown/marked': './node_modules/reveal.js/plugin/markdown/marked.js',
-    // 'plugin/markdown/markdown': './node_modules/reveal.js/plugin/markdown/markdown.js',
-    // 'plugin/notes/notes': './node_modules/reveal.js/plugin/notes/notes.js',
-    // 'plugin/highlight/highlight': './node_modules/reveal.js/plugin/highlight/highlight.js',
+    index: './src/index.js'
   },
   plugins: [
     new CopyWebpackPlugin([
